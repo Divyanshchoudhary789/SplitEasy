@@ -2,6 +2,16 @@
 
 A simple shared-expense splitter for groups. Add members, log expenses, and instantly see who owes whom — with suggested settlements to clear all debts in the minimum number of transactions.
 
+# 🌐 Live Deployment
+
+### Frontend (vercel)
+https://split-easy-five.vercel.app/
+
+### Backend (Render)
+https://spliteasy-ujrz.onrender.com
+
+---
+
 ## Features
 
 - Add and manage group members
@@ -188,6 +198,14 @@ In Atlas → Security → Network Access, add `0.0.0.0/0` to allow connections f
 
 > After both services are live, update `CLIENT_ORIGIN` in Render to your exact Vercel URL and redeploy the backend.
 
-## Author
+## 👨‍💻 Author
 
-Divyansh Choudhary
+**Divyansh Choudhary**
+
+Full Stack Developer | MERN STACK Developer
+
+GitHub:  
+https://github.com/Divyanshchoudhary789
+
+LinkedIn:  
+https://www.linkedin.com/in/divyansh--choudhary/
