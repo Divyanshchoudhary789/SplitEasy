@@ -20,6 +20,23 @@ app.use(cors({
 app.use(express.json({ limit: '10kb' }));
 app.use(express.urlencoded({ extended: true, limit: '10kb' }));
 
+app.get("/", (req, res) => {
+    res.status(200).json({
+        success: true,
+        message: "Welcome to SplitEasy - A Shared-Expense Splitter Application",
+        timestamp: new Date().toISOString(),
+    })
+});
+
+// Health check endpoint
+app.get('/health', (req, res) => {
+    res.status(200).json({
+        success: true,
+        message: 'Server is healthy',
+        timestamp: new Date().toISOString()
+    });
+});
+
 app.use('/api', mainRouter);
 
 app.use((req, res) => {
